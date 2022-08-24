@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="settings.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Grzegorz Jeżowski</title>
+  </head>
+  <body>
+    <script src="code.js"></script>
+    <div class="side">
+      <div class="side_container">
+        <div class="picture">
+          <img
+            class="img_me"
+            src="image/JA.png"
+            alt="Grzegorz Jeżowski picture"
+          />
+        </div>
+        <div class="o_mnie">O mnie</div>
+        <div class="about_me" id="about_me"></div>
+        <div class="jezyki">Języki</div>
+        <div class="languages" id="languages"></div>
+      </div>
+    </div>
+    <div>
+      <div class="w_exp">Doświadczenie zawodowe</div>
+      <div class="content" , id="content"></div>
+      <div class="w_exp">Wykształcenie</div>
+      <div class="edu" id="edu"></div>
+    </div>
+    <script>
+      AddToDiv("about_me", about_me);
+      AddLang(languages);
+      AddWorkExp(work_exp);
+      AddEdu(edu);
+    </script>
+  </body>
+</html>
